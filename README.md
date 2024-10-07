@@ -1,4 +1,3 @@
-# CIAPNet
 # Category-based Interactive Attention and Perception Fusion Network for Semantic Segmentation of Remote Sensing Images
 
 ## Datasets
@@ -7,30 +6,30 @@
 
 ## Folder Structure
 ```none
-â”œâ”€â”€ CIAPNet (code)
-â”œâ”€â”€ data
-â”‚   â”œâ”€â”€ LoveDA
-â”‚   â”‚   â”œâ”€â”€ Train
-â”‚   â”‚   â”‚   â”œâ”€â”€ Urban
-â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ images_png (original images)
-â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ masks_png (original masks)
-â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ masks_png_convert (converted masks used for training)
-â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ masks_png_convert_rgb (original rgb format masks)
-â”‚   â”‚   â”‚   â”œâ”€â”€ Rural
-â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ images_png 
-â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ masks_png 
-â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ masks_png_convert
-â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ masks_png_convert_rgb
-â”‚   â”‚   â”œâ”€â”€ Val (the same with Train)
-â”‚   â”œâ”€â”€ vaihingen
-â”‚   â”‚   â”œâ”€â”€ train_images (original)
-â”‚   â”‚   â”œâ”€â”€ train_masks (original)
-â”‚   â”‚   â”œâ”€â”€ test_images (original)
-â”‚   â”‚   â”œâ”€â”€ test_masks (original)
-â”‚   â”‚   â”œâ”€â”€ test_masks_eroded (original)
-â”‚   â”‚   â”œâ”€â”€ train (processed)
-â”‚   â”‚   â”œâ”€â”€ test (processed)
-â”‚   â”œâ”€â”€ potsdam (the same with vaihingen)
+©À©¤©¤ CIAPNet (code)
+©À©¤©¤ data
+©¦   ©À©¤©¤ LoveDA
+©¦   ©¦   ©À©¤©¤ Train
+©¦   ©¦   ©¦   ©À©¤©¤ Urban
+©¦   ©¦   ©¦   ©¦   ©À©¤©¤ images_png (original images)
+©¦   ©¦   ©¦   ©¦   ©À©¤©¤ masks_png (original masks)
+©¦   ©¦   ©¦   ©¦   ©À©¤©¤ masks_png_convert (converted masks used for training)
+©¦   ©¦   ©¦   ©¦   ©À©¤©¤ masks_png_convert_rgb (original rgb format masks)
+©¦   ©¦   ©¦   ©À©¤©¤ Rural
+©¦   ©¦   ©¦   ©¦   ©À©¤©¤ images_png 
+©¦   ©¦   ©¦   ©¦   ©À©¤©¤ masks_png 
+©¦   ©¦   ©¦   ©¦   ©À©¤©¤ masks_png_convert
+©¦   ©¦   ©¦   ©¦   ©À©¤©¤ masks_png_convert_rgb
+©¦   ©¦   ©À©¤©¤ Val (the same with Train)
+©¦   ©À©¤©¤ vaihingen
+©¦   ©¦   ©À©¤©¤ train_images (original)
+©¦   ©¦   ©À©¤©¤ train_masks (original)
+©¦   ©¦   ©À©¤©¤ test_images (original)
+©¦   ©¦   ©À©¤©¤ test_masks (original)
+©¦   ©¦   ©À©¤©¤ test_masks_eroded (original)
+©¦   ©¦   ©À©¤©¤ train (processed)
+©¦   ©¦   ©À©¤©¤ test (processed)
+©¦   ©À©¤©¤ potsdam (the same with vaihingen)
 ```
 
 ## Install
